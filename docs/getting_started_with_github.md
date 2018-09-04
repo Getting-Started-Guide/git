@@ -16,9 +16,9 @@
 $ echo "MY FIRST CONTENT IN README" >> README.md
 $ git init
 $ git add README.md
-$ commit -m "first commit"
-$ remote add origin <CONNECTIONTYP>
-$ push -u origin master
+$ git commit -m "first commit"
+$ git remote add origin <CONNECTIONTYP>
+$ git push -u origin master
 ``` 
 
 ### Tips and Tricks
