@@ -12,7 +12,7 @@ $ cd <RepositoryName>
 
 ```sh
 git add .
-git commit -m "Adds module blink"
+git commit -m "message"
 git push
 git pull
 
