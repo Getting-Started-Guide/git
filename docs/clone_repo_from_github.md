@@ -5,6 +5,7 @@
 ```sh
 $ git clone git://github.com/<OrganizationName or Username>/<RepositoryName>.git
 $ cd <RepositoryName>
+$ git remote set-url origin https://<OrganizationName or Username>:<Password>@github.com/<OrganizationName or Username>/<RepositoryName>.git
 ```
 
 
