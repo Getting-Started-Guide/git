@@ -7,17 +7,10 @@ $ eval `ssh-agent -s`
 ``` 
 
 
-1. A) Create SSH key. 
+1. Create SSH key. 
 
 ```sh
 $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-``` 
-
-
-1. B) Import existing SSH key. 
-
-```sh
-$ ssh-add <exampleKey>
 ``` 
 
 
@@ -25,6 +18,8 @@ $ ssh-add <exampleKey>
 
 ```sh
 $ ssh-add C:\Users\<name>\.ssh\id_ed25519
+// OR
+$ ssh-add ~/.ssh/id_ed25519
 $ Identity added: C:\Users\<name>\.ssh\id_ed25519
 
 $ ssh-add -l
