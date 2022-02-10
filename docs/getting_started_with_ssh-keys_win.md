@@ -119,3 +119,12 @@ ssh-add $env:userprofile\.ssh\id_rsa
 // Alternative: 
 $ git config --global core.sshCommand C:/Windows/System32/OpenSSH/ssh.exe 
 ``` 
+
+```sh 
+// UNTESTED: experimental explorative approach 
+$ ssh-add -l 
+// if empty 
+$ ssh-agent -s 
+$ ssh-add ~/.ssh/id_rsa 
+$ eval `ssh-agent -s`
+``` 
