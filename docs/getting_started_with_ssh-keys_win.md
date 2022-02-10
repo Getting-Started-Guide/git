@@ -81,9 +81,9 @@ gpg --armor --export YOUR_GPG_KEY
  - If the default 2048-bit RSA keys are too weak, you can create stronger keys with the following commands:
 
 ```sh
-$ ssh-keygen -t rsa -b 4096
-$ ssh-keygen -t ecdsa -b 521
-$ ssh-keygen -t ed25519
+$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+$ ssh-keygen -t ecdsa -b 521 -C "your_email@example.com"
+$ ssh-keygen -t ed25519 -C "your_email@example.com"
 ``` 
 
  - Win10 Work arounds:
