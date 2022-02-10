@@ -38,7 +38,8 @@ $ type C:\Users\your_user_name\.ssh\id_rsa.pub
 4. Set up Github in the shell. 
 
 ```sh
-$ TODO
+$ TODO 
+$ git config --global core.sshCommand "C:/Windows/System32/OpenSSH/ssh.exe"
 ``` 
 
 
