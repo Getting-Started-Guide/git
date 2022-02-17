@@ -128,3 +128,13 @@ $ ssh-agent -s
 $ ssh-add ~/.ssh/id_rsa 
 $ eval `ssh-agent -s`
 ``` 
+
+Win Temp Solution
+```sh 
+$ ssh-add -l
+=> leer
+$ ssh-agent -s
+$ ssh-add ~/.ssh/id_ed25519_no_passphrase
+$ eval `ssh-agent -s`
+$ git clone git@github.com:.........git
+``` 
